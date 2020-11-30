@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class AztecasPage extends StatelessWidget {
+class UbicacionAztecasPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Todo Sobre : Imperio Azteca'),
+        title: Text('Ubicacion : Imperio Azteca'),
       ),
     );
   }

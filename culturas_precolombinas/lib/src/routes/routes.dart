@@ -8,9 +8,15 @@ import 'package:culturas_precolombinas/src/pages/cards_page.dart';
 import 'package:culturas_precolombinas/src/pages/animated_container_page.dart';
 import 'package:culturas_precolombinas/src/pages/inputs_page.dart';
 
-import 'package:culturas_precolombinas/src/pages/incas_page.dart';
-import 'package:culturas_precolombinas/src/pages/aztecas_page.dart';
-import 'package:culturas_precolombinas/src/pages/mayas_page.dart';
+// Incas
+import 'package:culturas_precolombinas/src/pages/incas/incas_page.dart';
+import 'package:culturas_precolombinas/src/pages/incas/incas_ubicacion_page.dart';
+// Aztecas
+import 'package:culturas_precolombinas/src/pages/aztecas/aztecas_page.dart';
+import 'package:culturas_precolombinas/src/pages/aztecas/aztecas_ubicacion_page.dart';
+// Mayas
+import 'package:culturas_precolombinas/src/pages/mayas/mayas_page.dart';
+import 'package:culturas_precolombinas/src/pages/mayas/mayas_ubicacion_page.dart';
 
 Map<String, WidgetBuilder> getAppRoutes() {
   return <String, WidgetBuilder>{
@@ -22,5 +28,8 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'incas': (BuildContext context) => IncasPage(),
     'aztecas': (BuildContext context) => AztecasPage(),
     'mayas': (BuildContext context) => MayasPage(),
+    'ubicacion_incas': (BuildContext context) => UbicacionIncasPage(),
+    'ubicacion_aztecas': (BuildContext context) => UbicacionAztecasPage(),
+    'ubicacion_mayas': (BuildContext context) => UbicacionMayasPage(),
   };
 }
