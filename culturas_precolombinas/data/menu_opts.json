@@ -1,0 +1,45 @@
+{
+    "nombreApp" : "Componentes",
+    "rutas" : [
+        {
+            "ruta" : "alert",
+            "icon" : "add_alert",
+            "texto": "Alertas"
+        },
+        {
+            "ruta" : "avatar",
+            "icon" : "accessibility",
+            "texto": "Avatars"
+        },
+        {
+            "ruta" : "card",
+            "icon" : "folder_open",
+            "texto": "Cards - Tarjetas"
+        },
+        {
+            "ruta" : "animatedContainer",
+            "icon" : "ac_unit_rounded",
+            "texto": "Animated Container"
+        },
+        {
+            "ruta" : "inputs",
+            "icon" : "input",
+            "texto": "Inputs"
+        },
+        {
+            "ruta" : "incas",
+            "icon" : "add_alert",
+            "texto": "IMPERIO INCA"
+        },
+        {
+            "ruta" : "aztecas",
+            "icon" : "accessibility",
+            "texto": "IMPERIO AZTECA"
+        },
+        {
+            "ruta" : "mayas",
+            "icon" : "folder_open",
+            "texto": "IMPERIO MAYA"
+        }
+    ]
+}

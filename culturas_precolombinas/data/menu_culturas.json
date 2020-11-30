@@ -1,0 +1,38 @@
+{
+    "nombreApp" : "Componentes",
+    "rutas" : [
+        {
+            "ruta" : "incas",
+            "color" : "red",
+            "titulo" : "IMPERIO INCA",
+            "descripcion" : "El Imperio incaico o inca fue el mayor imperio en la América precolombina. Al territorio se denominó Tawantinsuyo o Tahuantinsuyo y al período de su dominio se le conoce, además, como incanato. Floreció en la región de los Andes peruanos entre los siglos xv y xvi, como consecuencia del apogeo de la civilización incaica. Con la extensión del imperio, esta fue absorbiendo nuevas expresiones culturales de los pueblos incorporados, y se ubicó en los actuales territorios del Perú, Bolivia, Ecuador, Chile, Argentina y Colombia.",
+            "image" : "incas.png",
+            "image_width" : 160,
+            "height": 235,
+            "min_height" : 117.5,
+            "max_height" : 470
+        },
+        {
+            "ruta" : "aztecas",
+            "color" : "green",
+            "titulo" : "IMPERIO AZTECA",
+            "descripcion" : "El Imperio azteca —también llamado, de forma minoritaria, Triple alianza, Imperio mexica o Imperio tenochca— fue una entidad de control territorial, político y económico que existió en la zona central de Mesoamérica, durante el Posclásico Tardío, antes de la Conquista española. Cuando los españoles llegaron en 1519, las tierras de la Alianza se gobernaron efectivamente desde Tenochtitlan, mientras que los otros socios en la alianza habían asumido roles subsidiarios",
+            "image" : "aztecas.png",
+            "image_width" : 130,
+            "height": 235,
+            "min_height" : 117.5,
+            "max_height" : 470
+        },
+        {
+            "ruta" : "mayas",
+            "color" : "amber",
+            "titulo" : "IMPERIO MAYA",
+            "descripcion" : "La cultura maya se refiere a una civilización mesoamericana que destacó a lo largo de más de dos milenios en numerosos aspectos socioculturales como su escritura jeroglífica, uno de los pocos sistemas de escritura plenamente desarrollados del continente americano precolombino, su arte, la arquitectura, su mitología y sus notables sistemas de numeración, así como en astronomía, matemáticas y comprensión de la ecología.",
+            "image" : "mayas.png",
+            "image_width" : 150,
+            "height": 235,
+            "min_height" : 117.5,
+            "max_height" : 470
+        }
+    ]
+}
