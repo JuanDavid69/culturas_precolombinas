@@ -135,15 +135,12 @@ class HomePageState extends State<HomePage> {
         ),
         Container(
           padding: const EdgeInsets.only(left: 235, top: 30),
-          child: RaisedButton(
-              color: Colors.blueGrey[700],
+          child: FloatingActionButton(
+              backgroundColor: Color(0xFF512DA8),
               onPressed: () {
                 Navigator.pushNamed(context, element['ruta']);
               },
-              child: Icon(
-                Icons.arrow_forward_ios_sharp,
-                color: Colors.lightGreen[300],
-              )),
+              child: Icon(Icons.arrow_forward_ios_sharp, color: Colors.amber)),
         )
       ],
     );

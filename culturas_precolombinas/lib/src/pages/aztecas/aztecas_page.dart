@@ -38,7 +38,7 @@ class AztecasPage extends StatelessWidget {
       leading: Icon(Icons.location_pin),
       trailing: Icon(
         Icons.keyboard_arrow_right_outlined,
-        color: Colors.blue,
+        color: Colors.deepPurple,
       ),
       onTap: () {
         Navigator.pushNamed(context, 'ubicacion_aztecas');
@@ -52,7 +52,7 @@ class AztecasPage extends StatelessWidget {
       leading: Icon(Icons.apartment_outlined),
       trailing: Icon(
         Icons.keyboard_arrow_right_outlined,
-        color: Colors.blue,
+        color: Colors.deepPurple,
       ),
       onTap: () {
         Navigator.pushNamed(context, 'construccion_aztecas');
@@ -66,7 +66,7 @@ class AztecasPage extends StatelessWidget {
       leading: Icon(Icons.account_tree_outlined),
       trailing: Icon(
         Icons.keyboard_arrow_right_outlined,
-        color: Colors.blue,
+        color: Colors.deepPurple,
       ),
       onTap: () {
         Navigator.pushNamed(context, 'social_aztecas');
@@ -80,7 +80,7 @@ class AztecasPage extends StatelessWidget {
       leading: Icon(Icons.auto_stories),
       trailing: Icon(
         Icons.keyboard_arrow_right_outlined,
-        color: Colors.blue,
+        color: Colors.deepPurple,
       ),
       onTap: () {
         Navigator.pushNamed(context, 'mitologia_aztecas');
@@ -94,7 +94,7 @@ class AztecasPage extends StatelessWidget {
       leading: Icon(Icons.gamepad_rounded),
       trailing: Icon(
         Icons.keyboard_arrow_right_outlined,
-        color: Colors.blue,
+        color: Colors.deepPurple,
       ),
       onTap: () {
         Navigator.pushNamed(context, 'reto_aztecas');
