@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 //Propias
-import 'package:culturas_precolombinas/providers/menu_provider2.dart';
+import 'package:culturas_precolombinas/providers/menu_provider.dart';
 import 'package:culturas_precolombinas/src/utils/color_string_utils.dart';
 
 class HomePage extends StatefulWidget {
