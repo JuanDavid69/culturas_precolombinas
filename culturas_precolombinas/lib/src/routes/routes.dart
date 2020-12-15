@@ -8,16 +8,20 @@ import 'package:culturas_precolombinas/src/pages/incas/incas_page.dart';
 import 'package:culturas_precolombinas/src/pages/incas/incas_ubicacion_page.dart';
 import 'package:culturas_precolombinas/src/pages/incas/incas_construccion_page.dart';
 import 'package:culturas_precolombinas/src/pages/incas/incas_social_page.dart';
+import 'package:culturas_precolombinas/src/pages/incas/incas_mitologia_page.dart';
+
 // Aztecas
 import 'package:culturas_precolombinas/src/pages/aztecas/aztecas_page.dart';
 import 'package:culturas_precolombinas/src/pages/aztecas/aztecas_ubicacion_page.dart';
 import 'package:culturas_precolombinas/src/pages/aztecas/aztecas_construccion_page.dart';
 import 'package:culturas_precolombinas/src/pages/aztecas/aztecas_social_page.dart';
+import 'package:culturas_precolombinas/src/pages/aztecas/aztecas_mitologia_page.dart';
 // Mayas
 import 'package:culturas_precolombinas/src/pages/mayas/mayas_page.dart';
 import 'package:culturas_precolombinas/src/pages/mayas/mayas_ubicacion_page.dart';
 import 'package:culturas_precolombinas/src/pages/mayas/mayas_construccion_page.dart';
 import 'package:culturas_precolombinas/src/pages/mayas/mayas_social_page.dart';
+import 'package:culturas_precolombinas/src/pages/mayas/mayas_mitologia_page.dart';
 
 Map<String, WidgetBuilder> getAppRoutes() {
   return <String, WidgetBuilder>{
@@ -34,5 +38,8 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'social_incas': (BuildContext context) => SocialIncasPage(),
     'social_aztecas': (BuildContext context) => SocialAztecasPage(),
     'social_mayas': (BuildContext context) => SocialMayasPage(),
+    'mitologia_incas': (BuildContext context) => MitologiaIncasPage(),
+    'mitologia_aztecas': (BuildContext context) => MitologiaAztecasPage(),
+    'mitologia_mayas': (BuildContext context) => MitologiaMayasPage(),
   };
 }
