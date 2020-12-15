@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:culturas_precolombinas/src/routes/routes.dart';
 import 'package:culturas_precolombinas/src/pages/not_found_page.dart';
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
